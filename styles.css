@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #ec6f66, #f3a183);
+  }
+  
+  header {
+    background: linear-gradient(to right,  #ec6f66, #f3a183);
+    padding: 20px;
+  }
+  
+  .container-vozinha {
+    margin: -30px 0 0 0;
+    background: linear-gradient(top to bottom, #c35b53f6, #c35b53f6);
+    height: 80px;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: -24px 0 0 0;
+    padding: 0 30px 0 30px;
+    overflow: hidden;
+    background: linear-gradient(to right, #c35b53f6, #c35b53f6);
+    border-radius: 30px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 30px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #98524df6;
+  }
+  
+  .container-banner,
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  .banner img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos específicos para tablets */
+    ul {
+      padding: 0 20px 0 20px;
+    }
+    
+    .container-banner {
+      min-height: 10vh;
+    }
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(bottom to top, #c35b53f6, #c35b53f6);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-receita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e79b92;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  
+  section {
+    margin: 7px 0 0 0;
+  }
+  
+  .section-h2 {
+    /* Adicione estilos conforme necessário */
+  }
+  
+  p {
+    margin: 0 0 20px;
+  }

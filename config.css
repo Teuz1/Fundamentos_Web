@@ -1,0 +1,52 @@
+/* Paleta de cores para um site de receita */
+:root {
+    --primary-color: #FF6347; /* Vermelho */
+    --background-color: #F5F5F5; /* Cinza claro */
+    --text-color: #333333; /* Preto */
+  }
+  
+  
+  /* Reset CSS */
+  
+  /* Normalizar a margem e o preenchimento */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Normalizar a aparência do texto */
+  body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remover decoração de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Normalizar a aparência do link */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Garantir que elementos de bloco ocupem 100% da largura disponível */
+  body, div, h1, h2, h3, h4, h5, h6, p {
+    width: 100%;
+  }
+  
+  /* Adicionar uma fonte base e tamanho do texto para melhor legibilidade */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Corrigir estilo padrão de formulários */
+  input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
